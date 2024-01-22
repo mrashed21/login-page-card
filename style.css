@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(223, 168, 191);
+  background: radial-gradient(
+    circle,
+    rgba(223, 168, 191, 1) 0%,
+    rgba(198, 186, 211, 1) 0%,
+    rgba(187, 184, 213, 1) 45%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+.card {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    153deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(191, 55, 219, 0.9630295355446866) 0%,
+    rgba(189, 59, 182, 1) 0%,
+    rgba(205, 184, 200, 1) 0%,
+    rgba(205, 184, 200, 1) 0%,
+    rgba(203, 184, 200, 1) 43%,
+    rgba(161, 177, 206, 1) 100%,
+    rgba(152, 171, 202, 1) 100%,
+    rgba(99, 187, 185, 1) 100%
+  );
+  width: 300px;
+  height: 265px;
+  margin: 150px auto 0 auto;
+  border-radius: 20px;
+  box-shadow: 3px 4px 5px 3px #93949e;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+}
+.profile img {
+  margin-top: -50px;
+  width: 100px;
+}
+.input {
+  text-align: center;
+  margin-top: 30px;
+}
+
+input {
+  padding: 10px;
+  background: #385272;
+  border: none;
+  color: white;
+}
+::placeholder {
+  color: white;
+}
+.fa-user {
+  font-size: 20px;
+  color: white;
+  background: hsl(211, 97%, 15%);
+  margin: 0 0 10px 0;
+  padding: 10px;
+}
+
+.fa-lock {
+  font-size: 20px;
+  color: white;
+  background: #01264e;
+  padding: 10px;
+}
+
+.Email {
+  margin-bottom: 10px;
+}
+
+ul li {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.text {
+  margin: 30px 10px;
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  color: #01264e;
+  font-style: italic;
+}
+
+span {
+  color: #01264e;
+  padding-right: 25px;
+}
+.footer {
+  text-align: center;
+}
+.login {
+  width: 200px;
+  height: 40px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    153deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(191, 55, 219, 0.9630295355446866) 0%,
+    rgba(189, 59, 182, 1) 0%,
+    rgba(205, 184, 200, 1) 0%,
+    rgba(194, 167, 181, 1) 0%,
+    rgba(203, 184, 200, 1) 43%,
+    rgba(143, 163, 195, 1) 100%,
+    rgba(152, 171, 202, 1) 100%,
+    rgba(99, 187, 185, 1) 100%
+  );
+  font-size: 16px;
+  cursor: pointer;
+}
